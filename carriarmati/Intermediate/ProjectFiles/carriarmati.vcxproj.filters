@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\carriarmati.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2DDD252A-1E01-4430-821B-2E734C97AD0E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\carriarmati.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\carriarmatiEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{082C1FD8-6B64-4423-8C97-CA3CF3FF028E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\carriarmati">
+			<UniqueIdentifier>{7B1397B0-B3FC-488B-87DE-6ED5E00FCAF7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\carriarmati\carriarmati.Build.cs">
+			<Filter>Source\carriarmati</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\carriarmati\carriarmati.cpp">
+			<Filter>Source\carriarmati</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\carriarmati\carriarmati.h">
+			<Filter>Source\carriarmati</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\carriarmati\carriarmatiGameModeBase.cpp">
+			<Filter>Source\carriarmati</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\carriarmati\carriarmatiGameModeBase.h">
+			<Filter>Source\carriarmati</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
