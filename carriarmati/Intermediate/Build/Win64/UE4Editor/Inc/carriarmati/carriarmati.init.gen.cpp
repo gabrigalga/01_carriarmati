@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodecarriarmati_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/carriarmati",
 				PKG_CompiledIn | 0x00000000,
-				0x6BB850B3,
-				0xB023D82A,
+				0xD6F75471,
+				0xF8EF19E3,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
