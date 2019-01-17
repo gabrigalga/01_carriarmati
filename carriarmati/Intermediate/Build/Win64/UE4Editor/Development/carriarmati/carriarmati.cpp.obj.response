@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
-/I C:\Users\Student\Documents\repos\carriarmati\carriarmati\Source
-/I C:\Users\Student\Documents\repos\carriarmati\carriarmati\Intermediate\Build\Win64\UE4Editor\Inc\carriarmati
-/I C:\Users\Student\Documents\repos\carriarmati\carriarmati\Source\carriarmati
+/I C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Source
+/I C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Intermediate\Build\Win64\UE4Editor\Inc\CarriArmati
+/I C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Source\CarriArmati
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -364,9 +364,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Student\Documents\repos\carriarmati\carriarmati\Source\carriarmati\carriarmati.cpp"
-/FI"C:\Users\Student\Documents\repos\carriarmati\carriarmati\Intermediate\Build\Win64\UE4Editor\Development\carriarmati\Definitions.carriarmati.h"
-/Fo"C:\Users\Student\Documents\repos\carriarmati\carriarmati\Intermediate\Build\Win64\UE4Editor\Development\carriarmati\carriarmati.cpp.obj"
+"C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Source\CarriArmati\CarriArmati.cpp"
+/FI"C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Intermediate\Build\Win64\UE4Editor\Development\CarriArmati\Definitions.CarriArmati.h"
+/Fo"C:\Users\Student\Documents\repos\carriarmati\CarriArmati\Intermediate\Build\Win64\UE4Editor\Development\CarriArmati\CarriArmati.cpp.obj"
 /TP
 /GR-
 /W4

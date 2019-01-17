@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "carriarmatiGameModeBase.generated.h"
+#include "CarriArmatiGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class CARRIARMATI_API AcarriarmatiGameModeBase : public AGameModeBase
+class CARRIARMATI_API ACarriArmatiGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

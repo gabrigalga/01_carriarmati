@@ -1,52 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\carriarmati.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{A4CC0D9D-8F59-4998-B808-95406B3A3E99}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\carriarmati.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\carriarmatiEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{2B89A228-C76A-46B4-93BA-A8E1663FFB59}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\carriarmati">
-			<UniqueIdentifier>{4C1D1601-41E7-41F3-8868-B94DDDAB484B}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\carriarmati\carriarmati.Build.cs">
-			<Filter>Source\carriarmati</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\carriarmati\carriarmati.cpp">
-			<Filter>Source\carriarmati</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\carriarmati\carriarmati.h">
-			<Filter>Source\carriarmati</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\carriarmati\carriarmatiGameModeBase.cpp">
-			<Filter>Source\carriarmati</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\carriarmati\carriarmatiGameModeBase.h">
-			<Filter>Source\carriarmati</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\carriarmati\tank.cpp">
-			<Filter>Source\carriarmati</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\carriarmati\tank.h">
-			<Filter>Source\carriarmati</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\CarriArmati.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1C9EEAC8-3AFB-4FA4-B54B-08B54CF0A317}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CarriArmati.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CarriArmatiEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{27138D3B-B652-4782-9ECC-173BEC843A9E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CarriArmati">
+      <UniqueIdentifier>{C6DE54D2-9F5E-4B46-959F-C22834D9FBC8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CarriArmati\CarriArmati.Build.cs">
+      <Filter>Source\CarriArmati</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CarriArmati\CarriArmati.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarriArmati\CarriArmati.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarriArmati\CarriArmatiGameModeBase.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarriArmati\CarriArmatiGameModeBase.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarriArmati\TankAICPP.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarriArmati\TankAICPP.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarriArmati\TankCPP.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarriArmati\TankCPP.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CarriArmati\TankControllerCPP.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CarriArmati\AimingCPP.h">
+      <Filter>Source\CarriArmati</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CarriArmati\TankControllerCPP.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CarriArmati\AimingCPP.cpp">
+      <Filter>Source\CarriArmati</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

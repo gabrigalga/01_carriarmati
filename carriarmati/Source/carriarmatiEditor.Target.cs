@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class carriarmatiEditorTarget : TargetRules
+public class CarriArmatiEditorTarget : TargetRules
 {
-	public carriarmatiEditorTarget(TargetInfo Target) : base(Target)
+	public CarriArmatiEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "carriarmati" } );
+		ExtraModuleNames.AddRange( new string[] { "CarriArmati" } );
 	}
 }

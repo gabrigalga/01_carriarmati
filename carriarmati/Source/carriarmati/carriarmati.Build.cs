@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class carriarmati : ModuleRules
+public class CarriArmati : ModuleRules
 {
-	public carriarmati(ReadOnlyTargetRules Target) : base(Target)
+	public CarriArmati(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

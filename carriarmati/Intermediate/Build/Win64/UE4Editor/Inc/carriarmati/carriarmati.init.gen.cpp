@@ -10,17 +10,17 @@
 #pragma warning (disable : 4883)
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-void EmptyLinkFunctionForGeneratedCodecarriarmati_init() {}
-	UPackage* Z_Construct_UPackage__Script_carriarmati()
+void EmptyLinkFunctionForGeneratedCodeCarriArmati_init() {}
+	UPackage* Z_Construct_UPackage__Script_CarriArmati()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
-				"/Script/carriarmati",
+				"/Script/CarriArmati",
 				PKG_CompiledIn | 0x00000000,
-				0xD6F75471,
-				0xF8EF19E3,
+				0xD97EF5EC,
+				0x35B14F05,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

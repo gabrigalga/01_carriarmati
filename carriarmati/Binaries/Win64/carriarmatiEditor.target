@@ -1,5 +1,5 @@
 {
-	"TargetName": "carriarmatiEditor",
+	"TargetName": "CarriArmatiEditor",
 	"Platform": "Win64",
 	"Configuration": "Development",
 	"Version": 
@@ -1251,15 +1251,15 @@
 			"IsPrecompiled": true
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-carriarmati.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CarriArmati.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-carriarmati.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CarriArmati.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-carriarmati.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-CarriArmati.lib",
 			"Type": "ImportLibrary"
 		},
 		{
@@ -5923,7 +5923,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/carriarmati.uproject",
+			"Path": "$(ProjectDir)/CarriArmati.uproject",
 			"Type": "UFS"
 		},
 		{
